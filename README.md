@@ -58,12 +58,15 @@ Navigate to "application.properties" file and open
 cd spring-boot-mysql-example/src/main/resources/
 vi application.properties
 ```
-Ensure below entries hasve correct MYSQL Connection credentials
-_	spring.datasource.url= jdbc:mysql://localhost:3306/springboot_mysql_example?useSSL=false
-	spring.datasource.username= root
-	spring.datasource.password= password123_
+Ensure below entries hasve correct MYSQL Connection credentials:
+
+spring.datasource.url= jdbc:mysql://localhost:3306/springboot_mysql_example?useSSL=false
+spring.datasource.username= root
+spring.datasource.password= password123
 
 SAVE the file and EXIT
+
+
 3. Build the application
 Navigate to root folder of the application. Change path location according to your machine
 ```
