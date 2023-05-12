@@ -58,11 +58,11 @@ Navigate to "application.properties" file and open
 cd spring-boot-mysql-example/src/main/resources/
 vi application.properties
 ```
-Ensure below entries hasve correct MYSQL Connection credentials:
+Ensure below entries have correct MYSQL Connection credentials:
 
-spring.datasource.url= jdbc:mysql://localhost:3306/springboot_mysql_example?useSSL=false
-spring.datasource.username= root
-spring.datasource.password= password123
+_spring.datasource.url= jdbc:mysql://localhost:3306/springboot_mysql_example?useSSL=false_
+_spring.datasource.username= root_
+_spring.datasource.password= password123_
 
 SAVE the file and EXIT
 
