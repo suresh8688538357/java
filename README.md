@@ -4,8 +4,10 @@ Pre-requisitess:
 
 1. Set up a VM with Ubuntu 20.04 
 2. Update and upgrade packages
+```
 apt-get update 
 apt-get upgrade
+```
 3. Navigate to root
 sudo su
 4. Install GIT
